@@ -17,29 +17,7 @@ export function Dropzone({ onAccept, onReject }: DropzoneProps) {
         []
     )
 
-    const renderDragMessage = (
-        isDragActive: boolean,
-        isDragReject: boolean
-    ) => {
-        if (!isDragActive) {
-            return (
-                <>
-                    <Title>
-                        <Image src={ImageIcon} alt="lala" /> Organization Logo
-                    </Title>
-                    <Message type="default">
-                        Drop the image here or click to browse.
-                    </Message>
-                </>
-            )
-        }
-        if (isDragReject) {
-            return <Message type="error"> Arquivo não suportado</Message>
-        }
-        return <Message type="success"> Solte os arquivos</Message>
-    }
-
-    const { getRootProps, getInputProps, isDragActive, isDragReject } =
+    const { getRootProps, getInputProps } =
         useDropzone({
             onDrop,
             accept: ["image/*"],
@@ -48,12 +26,13 @@ export function Dropzone({ onAccept, onReject }: DropzoneProps) {
 
     return (
         <Container
-            isDragActive={isDragActive}
-            isDragReject={isDragReject}
             {...getRootProps()}
         >
             <input {...getInputProps()} />
-            {renderDragMessage(isDragActive, isDragReject)}
+            <Title>
+                <Image src={ImageIcon} alt="lala" /> Organization Logo
+            </Title>
+            <Message>Drop the image here or click to browse.</Message>
         </Container>
     )
 }

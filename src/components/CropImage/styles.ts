@@ -1,16 +1,18 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
 export const Container = styled.div`
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 113px;
-    height: 113px;
-    border-radius: 72px;
-    overflow: hidden;
-    background-color: #fff;
-    z-index: 34;
+    ${({ theme }) => css`
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 113px;
+        height: 113px;
+        border-radius: 72px;
+        overflow: hidden;
+        background-color: ${theme.colors.shape};
+        z-index: 1;
+    `}
 `
 
 type ImageProps = {

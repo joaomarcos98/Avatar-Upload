@@ -1,10 +1,14 @@
+import { ThemeProvider } from "styled-components"
 import { AvatarUpload } from "./components/AvatarUpload"
+import GlobalStyle from "./styles/globalStyle"
+import { theme } from "./styles/theme"
 
 function App() {
     return (
-        <div>
+        <ThemeProvider theme={theme}>
             <AvatarUpload />
-        </div>
+            <GlobalStyle />
+        </ThemeProvider>
     )
 }
 
