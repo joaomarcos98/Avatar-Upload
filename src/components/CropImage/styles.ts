@@ -22,5 +22,5 @@ type ImageProps = {
 export const Image = styled.img<ImageProps>`
     width: 200px;
     height: 200px;
-    transform: scale(calc(${({ zoom }) => zoom} / 10));
+    transform: scale(calc(${({ zoom }) => zoom} / 20));
 `

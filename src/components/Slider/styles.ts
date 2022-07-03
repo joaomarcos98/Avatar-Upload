@@ -46,7 +46,7 @@ type FillProps = {
 export const Fill = styled.span<FillProps>`
     ${({ theme, percentagem }) => css`
         display: block;
-        width: ${`${percentagem}%`};
+        width: ${`${(Number(percentagem) - 10) * 2}%`};
         height: 100%;
         background-color: ${theme.colors.blue_100};
         border-radius: 2px;

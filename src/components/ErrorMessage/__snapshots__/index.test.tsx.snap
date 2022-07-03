@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Message component should be renders correctly 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  padding: 5px;
+  top: 36px;
+  right: 28px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.c2:focus {
+  outline-color: #3F80FF;
+  outline-offset: 2px;
+}
+
+.c3 {
+  height: 12px;
+  width: 12px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 32px;
+  position: relative;
+}
+
+.c1 {
+  width: 20px;
+  height: 20px;
+  padding: 45px;
+  background-color: #C3CBD5;
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.c4 {
+  justify-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #C64D32;
+  margin: 2px 0;
+}
+
+.c6 {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #3D485F;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+<div
+  class="c0"
+>
+  <img
+    class="c1"
+  />
+  <button
+    class="c2"
+  >
+    <img
+      alt="Close crop"
+      class="c3"
+    />
+  </button>
+  <div
+    class="c4"
+  >
+    <h4
+      class="c5"
+    >
+      Sorry, the upload failed.
+    </h4>
+    <span
+      class="c6"
+    >
+      Try again
+    </span>
+  </div>
+</div>
+`;

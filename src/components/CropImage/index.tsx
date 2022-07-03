@@ -8,7 +8,7 @@ type CropImageProps = {
 export const CropImage = ({ zoom, imageUrl }: CropImageProps) => {
     return (
         <Container>
-            <Image zoom={zoom} src={imageUrl} alt="" />
+            <Image zoom={zoom} src={imageUrl} alt="Avatar image" />
         </Container>
     )
 }

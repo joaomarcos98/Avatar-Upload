@@ -23,8 +23,8 @@ export const Slider = ({ onInput }: SliderProps) => {
             </Bar>
             <Input
                 type="range"
-                min="1"
-                max="100"
+                min="10"
+                max="60"
                 onChange={onChange}
                 defaultValue={value}
             />

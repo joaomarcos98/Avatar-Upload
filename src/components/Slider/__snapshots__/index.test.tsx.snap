@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider component should be renders correctly 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c3 {
+  width: 100%;
+  position: relative;
+  -webkit-appearance: none;
+  height: 2px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.c3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 13px;
+  width: 13px;
+  background-color: #3F80FF;
+  border-radius: 50%;
+}
+
+.c3:focus {
+  outline-color: #3F80FF;
+  outline-offset: 2px;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 0;
+  top: 13px;
+  width: 100%;
+  height: 2px;
+  background-color: #B9D1FF;
+  border-radius: 2px;
+}
+
+.c2 {
+  display: block;
+  width: 20%;
+  height: 100%;
+  background-color: #3F80FF;
+  border-radius: 2px;
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    <span
+      class="c2"
+    />
+  </span>
+  <input
+    class="c3"
+    max="60"
+    min="10"
+    type="range"
+    value="20"
+  />
+</div>
+`;
