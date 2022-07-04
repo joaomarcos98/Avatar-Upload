@@ -1,7 +1,7 @@
 /** @name Styles */
 import { Container } from "./styles"
 /** @name Dependencies */
-import { useState } from "react"
+import { useCallback, useState } from "react"
 /** @name Components */
 import { Crop } from "@components/Crop"
 import { Dropzone } from "@components/Dropzone"
@@ -20,38 +20,44 @@ export const AvatarUpload = () => {
     const [file, setFile] = useState<FileProps>(null)
     const [zoom, setZoom] = useState("20")
 
-    const handleChangeZoom = (value: string) => {
+    const handleChangeZoom = useCallback((value: string) => {
         setZoom(value)
-    }
+    }, [])
 
-    const onUpload = (file: File[]) => {
-        const newFile = {
-            file: file[0],
-            zoom,
-            saved: false
-        }
-        const url = URL.createObjectURL(file[0])
+    const onUpload = useCallback(
+        (file: File[]) => {
+            const newFile = {
+                file: file[0],
+                zoom,
+                saved: false
+            }
+            const url = URL.createObjectURL(file[0])
 
-        setImageUrl(url)
-        setFile(newFile)
-    }
+            setImageUrl(url)
+            setFile(newFile)
+        },
+        [file]
+    )
 
-    const onReject = () => {
+    const onReject = useCallback(() => {
         setError((state) => !state)
-    }
+    }, [])
 
-    const onSave = () => {
+    const onSave = useCallback(() => {
         if (file) {
             const newFile: FileProps = { ...file }
             newFile.saved = !newFile.saved
             setFile(newFile)
-        }
-    }
 
-    const reset = () => {
+            console.log("[API] ~ Sending File:")
+            console.log(file)
+        }
+    }, [file])
+
+    const reset = useCallback(() => {
         setError(false)
         setImageUrl("")
-    }
+    }, [])
 
     if (file?.saved) {
         return (
