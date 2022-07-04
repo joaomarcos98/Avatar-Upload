@@ -1,6 +1,9 @@
-import { CloseButton } from "../CloseButton"
+/** @name Styles */
 import { Container, Content, Icon, Message, Title } from "./styles"
-import infoIcon from "../../assets/infoIcon.svg"
+/** @name Icons */
+import infoIcon from "@assets/infoIcon.svg"
+/** @name Components */
+import { CloseButton } from "@components/CloseButton"
 
 type ErrorMessageProps = {
     onClose(): void

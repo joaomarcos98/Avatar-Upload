@@ -1,12 +1,13 @@
+/** @name Dependecies */
 import styled, { css } from "styled-components"
 
 export const Container = styled.div`
-        cursor: pointer;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        display: flex;
-        padding-left: 50px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-left: 50px;
 `
 
 export const Title = styled.h3`

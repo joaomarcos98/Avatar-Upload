@@ -1,6 +1,10 @@
+/** @name Dependencies*/
 import { fireEvent, screen, waitFor } from "@testing-library/react"
+/** @name Component*/
 import { AvatarUpload } from "."
+/** @name Utils*/
 import { renderWithTheme } from "../../utils/test/renderWithTheme"
+/** @name Mocks*/
 import { fileMock, rejectFileMock } from "../Dropzone/index.test"
 
 describe("Avatar upload component", () => {

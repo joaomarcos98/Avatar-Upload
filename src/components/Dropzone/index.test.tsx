@@ -1,5 +1,8 @@
+/** @name Dependencies*/
 import { fireEvent, screen, waitFor } from "@testing-library/react"
+/** @name Components*/
 import { Dropzone } from "."
+/** @name Utils*/
 import { renderWithTheme } from "../../utils/test/renderWithTheme"
 
 const onAcceptMock = jest.fn()

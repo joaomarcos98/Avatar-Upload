@@ -1,7 +1,9 @@
-import { Slider } from "../Slider"
+/** @name Styles */
 import { Container, SaveButton, Title, Content } from "./styles"
-import { CloseButton } from "../CloseButton"
-import { CropImage } from "../CropImage"
+/** @name Components */
+import { Slider } from "@components/Slider"
+import { CropImage } from "@components/CropImage"
+import { CloseButton } from "@components/CloseButton"
 
 type CropProps = {
     zoom: string

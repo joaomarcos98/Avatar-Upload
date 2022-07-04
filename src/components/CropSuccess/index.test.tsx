@@ -1,4 +1,6 @@
+/** @name Components*/
 import { CropSuccess } from "."
+/** @name Utils*/
 import { renderWithTheme } from "../../utils/test/renderWithTheme"
 
 describe("Crop success component", () => {
@@ -13,6 +15,5 @@ describe("Crop success component", () => {
         )
         expect(container.querySelector(".dropzone")).toBeInTheDocument()
         expect(container.querySelector(".crop-image")).toBeInTheDocument()
-        expect(container.firstChild).toMatchSnapshot()
     })
 })

@@ -1,5 +1,7 @@
+/** @name Styles */
 import { Container, Image } from "./styles"
-import closeIcon from "../../assets/closeIcon.svg"
+/** @name Icons */
+import closeIcon from "@assets/closeIcon.svg"
 
 type CloseButtonProps = {
     onClose(): void

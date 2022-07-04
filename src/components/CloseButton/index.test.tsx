@@ -1,7 +1,10 @@
-import { fireEvent, screen } from "@testing-library/react"
-import { CloseButton } from "."
-import { renderWithTheme } from "../../utils/test/renderWithTheme"
+/** @name Dependencies*/
 import userEvent from "@testing-library/user-event"
+import { fireEvent, screen } from "@testing-library/react"
+/** @name Component*/
+import { CloseButton } from "."
+/** @name Utils*/
+import { renderWithTheme } from "../../utils/test/renderWithTheme"
 
 const onCloseMock = jest.fn()
 

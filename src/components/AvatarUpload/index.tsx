@@ -1,9 +1,12 @@
-import { useState } from "react"
-import { Crop } from "../Crop"
-import { Dropzone } from "../Dropzone"
+/** @name Styles */
 import { Container } from "./styles"
-import { ErrorMessage } from "../ErrorMessage"
-import { CropSuccess } from "../CropSuccess"
+/** @name Dependecies */
+import { useState } from "react"
+/** @name Components */
+import { Crop } from "@components/Crop"
+import { Dropzone } from "@components/Dropzone"
+import { CropSuccess } from "@components/CropSuccess"
+import { ErrorMessage } from "@components/ErrorMessage"
 
 type FileProps = {
     file: File

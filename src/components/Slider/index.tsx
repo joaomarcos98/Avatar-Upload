@@ -1,5 +1,7 @@
-import { ChangeEvent, useState } from "react"
+/** @name Styles */
 import { Bar, Container, Fill, Input } from "./styles"
+/** @name Dependencies */
+import { ChangeEvent, useState } from "react"
 
 type RangeEvent = ChangeEvent<HTMLInputElement>
 type SliderProps = {

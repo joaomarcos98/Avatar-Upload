@@ -1,5 +1,8 @@
+/** @name Dependencies*/
 import { screen } from "@testing-library/react"
+/** @name Component*/
 import { Crop } from "."
+/** @name Utils*/
 import { renderWithTheme } from "../../utils/test/renderWithTheme"
 
 describe("Crop component", () => {

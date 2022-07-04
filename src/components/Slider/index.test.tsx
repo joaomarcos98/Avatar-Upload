@@ -1,7 +1,10 @@
+/** @name Dependencies */
 import { fireEvent, screen } from "@testing-library/react"
-import { Slider } from "."
-import { renderWithTheme } from "../../utils/test/renderWithTheme"
 import userEvent from "@testing-library/user-event"
+/** @name Components */
+import { Slider } from "."
+/** @name Utils */
+import { renderWithTheme } from "@utils/test/renderWithTheme"
 
 const onInputStub = jest.fn()
 

@@ -1,7 +1,10 @@
+/** @name Styles */
+import { Container, Message, Image, Title } from "./styles"
+/** @name Icons */
+import ImageIcon from "@assets/imageIcon.svg"
+/** @name Dependencies */
 import { useCallback } from "react"
 import { useDropzone, FileRejection } from "react-dropzone"
-import { Container, Message, Image, Title } from "./styles"
-import ImageIcon from "../../assets/imageIcon.svg"
 
 type DropzoneProps = {
     onAccept(files: File[]): void

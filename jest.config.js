@@ -16,5 +16,10 @@ module.exports = {
     transform: {
         "^.+\\.tsx?$": "ts-jest",
         "^.+\\.svg$": "<rootDir>/.jest/svgTransform.js"
+    },
+    moduleNameMapper: {
+        "@components/(.*)": "<rootDir>/src/components/$1",
+        "@assets/(.*)": "<rootDir>/src/assets/$1",
+        "@utils/(.*)": "<rootDir>/src/utils/$1"
     }
 }

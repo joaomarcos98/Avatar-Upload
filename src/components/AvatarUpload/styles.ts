@@ -1,3 +1,4 @@
+/** @name Dependecies */
 import styled, { css, DefaultTheme } from "styled-components"
 
 type ContainerProps = {

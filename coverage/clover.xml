@@ -1,206 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656897074751" clover="3.2.0">
-  <project timestamp="1656897074751" name="All files">
-    <metrics statements="125" coveredstatements="124" conditionals="18" coveredconditionals="18" methods="32" coveredmethods="31" elements="175" coveredelements="173" complexity="0" loc="125" ncloc="125" packages="10" files="18" classes="18"/>
-    <package name="src">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="vite-env.d.ts" path="/home/joao/web/crop/src/vite-env.d.ts">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      </file>
-    </package>
-    <package name="src.components.AvatarUpload">
+<coverage generated="1656935981254" clover="3.2.0">
+  <project timestamp="1656935981254" name="All files">
+    <metrics statements="87" coveredstatements="86" conditionals="18" coveredconditionals="18" methods="20" coveredmethods="19" elements="125" coveredelements="123" complexity="0" loc="87" ncloc="87" packages="9" files="11" classes="11"/>
+    <package name="components.AvatarUpload">
       <metrics statements="36" coveredstatements="35" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="8"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/AvatarUpload/index.tsx">
         <metrics statements="31" coveredstatements="30" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="6"/>
-        <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="9" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="17" count="9" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="18" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
         <line num="20" count="9" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="9" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
-        <line num="36" count="9" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="40" count="9" type="stmt"/>
-        <line num="41" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="48" count="9" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-        <line num="53" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="66" count="8" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="9" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="69" count="8" type="stmt"/>
       </file>
       <file name="styles.ts" path="/home/joao/web/crop/src/components/AvatarUpload/styles.ts">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="14" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.CloseButton">
+    <package name="components.CloseButton">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/CloseButton/index.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
         <line num="2" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="8" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
       </file>
       <file name="styles.ts" path="/home/joao/web/crop/src/components/CloseButton/styles.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.Crop">
-      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+    <package name="components.Crop">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/Crop/index.tsx">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-      </file>
-      <file name="styles.ts" path="/home/joao/web/crop/src/components/Crop/styles.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.CropImage">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+    <package name="components.CropImage">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/CropImage/index.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-      </file>
-      <file name="styles.ts" path="/home/joao/web/crop/src/components/CropImage/styles.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="25" count="6" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.CropSuccess">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+    <package name="components.CropSuccess">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/CropSuccess/index.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-      </file>
-      <file name="styles.ts" path="/home/joao/web/crop/src/components/CropSuccess/styles.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.Dropzone">
-      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+    <package name="components.Dropzone">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/Dropzone/index.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="20" type="stmt"/>
-        <line num="14" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="20" count="20" type="stmt"/>
-        <line num="26" count="20" type="stmt"/>
-      </file>
-      <file name="styles.ts" path="/home/joao/web/crop/src/components/Dropzone/styles.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="20" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="20" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="17" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="20" type="stmt"/>
+        <line num="29" count="20" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.ErrorMessage">
-      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+    <package name="components.ErrorMessage">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/ErrorMessage/index.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-      </file>
-      <file name="styles.ts" path="/home/joao/web/crop/src/components/ErrorMessage/styles.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.Slider">
-      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+    <package name="components.Slider">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="index.tsx" path="/home/joao/web/crop/src/components/Slider/index.tsx">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="8" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
         <line num="12" count="8" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="8" type="stmt"/>
-      </file>
-      <file name="styles.ts" path="/home/joao/web/crop/src/components/Slider/styles.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="8" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="8" type="stmt"/>
-        <line num="46" count="3" type="stmt"/>
-        <line num="47" count="8" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="8" type="stmt"/>
       </file>
     </package>
-    <package name="src.utils.test">
+    <package name="utils.test">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="renderWithTheme.tsx" path="/home/joao/web/crop/src/utils/test/renderWithTheme.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

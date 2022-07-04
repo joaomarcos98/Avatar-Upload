@@ -1,3 +1,4 @@
+/** @name Styles */
 import { Container, Image } from "./styles"
 
 type CropImageProps = {
