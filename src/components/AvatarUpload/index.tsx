@@ -1,6 +1,6 @@
 /** @name Styles */
 import { Container } from "./styles"
-/** @name Dependecies */
+/** @name Dependencies */
 import { useState } from "react"
 /** @name Components */
 import { Crop } from "@components/Crop"

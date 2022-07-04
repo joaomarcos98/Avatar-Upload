@@ -1,6 +1,6 @@
 /** @name Styles*/
 import { Container } from "./styles"
-/** @name Dependecies*/
+/** @name Dependencies*/
 import { FileRejection } from "react-dropzone"
 /** @name Components*/
 import { Dropzone } from "@components/Dropzone"
