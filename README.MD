@@ -1,5 +1,8 @@
 # Avatar-Upload
 
+<h1 align="center">
+  <img alt="avatar-upload" height="700" title="Avatar Upload" src=".github/preview.png" />
+</h1>
 
 ## 💻 Project
 
@@ -22,10 +25,6 @@ the Avatar-Upload is a project to upload your avatar.
 - [x] Eslint
 - [x] Yarn
 - [x] Vite
-
-<h1 align="center">
-  <img alt="avatar-upload" height="700" title="Avatar Upload" src=".github/preview.png" />
-</h1>
 
 ## Run the project
 
