@@ -13,6 +13,7 @@ export const Container = styled.div`
         overflow: hidden;
         background-color: ${theme.colors.shape};
         z-index: 1;
+        margin-right: 32px;
     `}
 `
 

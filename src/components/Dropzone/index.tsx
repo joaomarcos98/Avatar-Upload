@@ -15,7 +15,7 @@ export function Dropzone({ onAccept, onReject }: DropzoneProps) {
     const onDrop = useCallback(
         (acceptedFiles: File[], rejection: FileRejection[]) => {
             !!acceptedFiles.length && onAccept(acceptedFiles)
-            !acceptedFiles.length && onReject(rejection)
+            !!rejection.length && onReject(rejection)
         },
         []
     )

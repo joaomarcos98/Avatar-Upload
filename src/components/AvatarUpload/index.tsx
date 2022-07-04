@@ -24,24 +24,21 @@ export const AvatarUpload = () => {
         setZoom(value)
     }, [])
 
-    const onUpload = useCallback(
-        (file: File[]) => {
-            const newFile = {
-                file: file[0],
-                zoom,
-                saved: false
-            }
-            const url = URL.createObjectURL(file[0])
+    const onUpload = (file: File[]) => {
+        const newFile = {
+            file: file[0],
+            zoom,
+            saved: false
+        }
+        const url = URL.createObjectURL(file[0])
 
-            setImageUrl(url)
-            setFile(newFile)
-        },
-        [file]
-    )
+        setImageUrl(url)
+        setFile(newFile)
+    }
 
-    const onReject = useCallback(() => {
+    const onReject = () => {
         setError((state) => !state)
-    }, [])
+    }
 
     const onSave = useCallback(() => {
         if (file) {

@@ -45,5 +45,4 @@ export const Content = styled.div`
     width: 275px;
     display: flex;
     flex-direction: column;
-    margin-left: 32px;
 `
