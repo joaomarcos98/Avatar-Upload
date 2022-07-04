@@ -28,6 +28,7 @@ export const AvatarUpload = () => {
             saved: false
         }
         const url = URL.createObjectURL(file[0])
+
         setImageUrl(url)
         setFile(newFile)
     }
@@ -64,7 +65,7 @@ export const AvatarUpload = () => {
 
     return (
         <Container>
-            {!imageUrl && (
+            {!imageUrl && !error && (
                 <Container dashed>
                     <Dropzone onAccept={onUpload} onReject={onReject} />
                 </Container>

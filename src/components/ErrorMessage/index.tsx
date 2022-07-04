@@ -8,7 +8,7 @@ type ErrorMessageProps = {
 
 export const ErrorMessage = ({ onClose }: ErrorMessageProps) => {
     return (
-        <Container>
+        <Container className="error-message">
             <Icon src={infoIcon} />
             <CloseButton onClose={onClose} />
             <Content>

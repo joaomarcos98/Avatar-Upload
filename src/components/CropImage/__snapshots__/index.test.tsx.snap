@@ -32,7 +32,7 @@ exports[`Crop Image component should be renders correctly 1`] = `
 }
 
 <div
-  class="c0"
+  class="c0 crop-image"
 >
   <img
     alt="Avatar image"

@@ -19,7 +19,7 @@ export const Crop = ({
     onSave
 }: CropProps) => {
     return (
-        <Container>
+        <Container className="crop">
             <CropImage imageUrl={imageUrl} zoom={zoom} />
             <CloseButton onClose={onClose} />
             <Content>

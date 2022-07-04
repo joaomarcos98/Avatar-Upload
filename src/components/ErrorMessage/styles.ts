@@ -9,8 +9,8 @@ export const Container = styled.div`
 
 export const Icon = styled.img`
     ${({ theme }) => css`
-        width: 20px;
-        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
         padding: 45px;
         background-color: ${theme.colors.gray_400};
         border-radius: ${theme.border.radius.round};

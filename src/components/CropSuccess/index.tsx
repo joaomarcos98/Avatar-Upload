@@ -17,7 +17,7 @@ export const CropSuccess = ({
     onReject
 }: CropSuccessProps) => {
     return (
-        <Container>
+        <Container className="crop-success">
             <CropImage imageUrl={imageUrl} zoom={zoom} />
             <Dropzone onAccept={onAccept} onReject={onReject} />
         </Container>

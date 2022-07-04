@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/10</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/10</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -98,36 +98,32 @@
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a>
-<a name='L39'></a><a href='#L39'>39</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -137,41 +133,36 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import { useCallback } from "react"</span>
-<span class="cstat-no" title="statement not covered" >import { useDropzone, FileRejection } from "react-dropzone"</span>
-<span class="cstat-no" title="statement not covered" >import { Container, Message, Image, Title } from "./styles"</span>
-<span class="cstat-no" title="statement not covered" >import ImageIcon from "../../assets/imageIcon.svg"</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useCallback } from "react"
+import { useDropzone, FileRejection } from "react-dropzone"
+import { Container, Message, Image, Title } from "./styles"
+import ImageIcon from "../../assets/imageIcon.svg"
 &nbsp;
 type DropzoneProps = {
     onAccept(files: File[]): void
     onReject(errors: FileRejection[]): void
 }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >export function <span class="fstat-no" title="function not covered" >D</span>ropzone(</span>{ onAccept, onReject }: DropzoneProps) {
-    const onDrop = <span class="cstat-no" title="statement not covered" >useCallback(</span>
-<span class="fstat-no" title="function not covered" >        (a</span>cceptedFiles: File[], rejection: FileRejection[]) =&gt; {
-<span class="cstat-no" title="statement not covered" >            !!acceptedFiles &amp;&amp; onAccept(acceptedFiles)</span>
-<span class="cstat-no" title="statement not covered" >            !!rejection.length &amp;&amp; onReject(rejection)</span>
+export function Dropzone({ onAccept, onReject }: DropzoneProps) {
+    const onDrop = useCallback(
+        (acceptedFiles: File[], rejection: FileRejection[]) =&gt; {
+            !!acceptedFiles.length &amp;&amp; onAccept(acceptedFiles)
+            !acceptedFiles.length &amp;&amp; onReject(rejection)
         },
         []
     )
 &nbsp;
-    const { getRootProps, getInputProps } =
-<span class="cstat-no" title="statement not covered" >        useDropzone({</span>
-            onDrop,
-            accept: ["image/*"],
-            multiple: false
-        })
+    const { getRootProps, getInputProps } = useDropzone({
+        onDrop,
+        accept: ["image/*"],
+        multiple: false
+    })
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    return (</span>
-        &lt;Container
-            {...getRootProps()}
-        &gt;
-            &lt;input {...getInputProps()} /&gt;
+    return (
+        &lt;Container className="dropzone" {...getRootProps()}&gt;
+            &lt;input id="dropzone" {...getInputProps()} /&gt;
             &lt;Title&gt;
-                &lt;Image src={ImageIcon} alt="lala" /&gt; Organization Logo
+                &lt;Image src={ImageIcon} alt="Image icon" /&gt; Organization Logo
             &lt;/Title&gt;
             &lt;Message&gt;Drop the image here or click to browse.&lt;/Message&gt;
         &lt;/Container&gt;
@@ -184,7 +175,7 @@ type DropzoneProps = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sun Jul 03 2022 19:48:34 GMT-0300 (Horário Padrão de Brasília)
+                at Sun Jul 03 2022 22:11:14 GMT-0300 (Horário Padrão de Brasília)
             </div>
         <script src="../../../prettify.js"></script>
         <script>

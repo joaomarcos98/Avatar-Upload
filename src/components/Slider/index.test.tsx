@@ -19,7 +19,7 @@ describe("Slider component", () => {
         expect(screen.getByRole("slider")).toHaveValue("20")
     })
 
-    it("should change value", async () => {
+    it("should change value", () => {
         renderWithTheme(<Slider onInput={onInputStub} />)
 
         const slider = screen.getByRole("slider")
