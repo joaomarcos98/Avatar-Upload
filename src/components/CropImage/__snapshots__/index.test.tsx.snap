@@ -21,6 +21,7 @@ exports[`Crop Image component should be renders correctly 1`] = `
   overflow: hidden;
   background-color: #FFFFFF;
   z-index: 1;
+  margin-right: 32px;
 }
 
 .c1 {
